@@ -12,7 +12,7 @@ public class Main {
             int idade = scanner.nextInt();
             try {
                 validarIdade(idade);
-                System.out.println("Você tem " + idade + " anos.");
+                System.out.println("Olá, você tem " + idade +" anos de idade!");
                 isIdadeValida = true;
             } catch (IdadeInvalidaException e){
                 System.out.println(e.getMessage());
